@@ -1,0 +1,3 @@
+[submodule "planetplanet"]
+	path = planetplanet
+	url = git@github.com:nakagami/planetplanet.git
