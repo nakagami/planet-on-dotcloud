@@ -16,4 +16,4 @@ os.symlink(admin_mediadir, staticlink)
 staticlink = os.path.join('static', 'planet')
 if os.path.islink(staticlink):
     os.unlink(staticlink)
-os.symlink('/home/dotcloud/current/static/planet, staticlink)
+os.symlink('/home/dotcloud/current/static/planet', staticlink)
