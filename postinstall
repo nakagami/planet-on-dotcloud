@@ -17,3 +17,6 @@ staticlink = os.path.join('static', 'planet')
 if os.path.islink(staticlink):
     os.unlink(staticlink)
 os.symlink('/home/dotcloud/current/planetplanet/static/planet', staticlink)
+
+#crontab update
+os.system('crontab /home/dotcloud/current/crontab')

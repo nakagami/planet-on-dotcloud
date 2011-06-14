@@ -1,0 +1,1 @@
+*/15 * * * * /home/dotcloud/env/bin/python /home/dotcloud/current/planetplanet/manage.py syncrss
